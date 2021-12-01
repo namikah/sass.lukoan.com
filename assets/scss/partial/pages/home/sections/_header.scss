@@ -1,0 +1,55 @@
+header {
+	background-image: url("http://lukoan.com/tf/tej/assets/images/intro.jpg");
+	background-position: center;
+	background-size: 100%;
+	height: 500px;
+
+	.header__navbar__flex {
+		position: fixed;
+        width: 100%;
+		height: 70px;
+		z-index: 1;
+		background-color: black;
+		opacity: 95%;
+	}
+
+	.row {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 25px;
+	}
+
+	.left__side {
+		a {
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				color: #ffffff57;
+			}
+		}
+	}
+	.right__side {
+		ul {
+			li {
+				display: inline-block;
+				a {
+					text-decoration: none;
+					font-weight: 100;
+					font-family: "Montserrat";
+					letter-spacing: 2px;
+					transition: all 0.3s ease-in-out;
+					color: #ffffff;
+					text-transform: uppercase;
+					font-size: 10px;
+					position: relative;
+					padding: 15px 10px;
+					margin-left: 10px;
+
+					&:hover {
+						color: #ffffffaf;
+					}
+				}
+			}
+		}
+	}
+}

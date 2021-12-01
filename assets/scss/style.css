@@ -1,0 +1,376 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100% !important;
+}
+
+.col-3 {
+  width: calc(100%/12*3);
+}
+
+.col-4 {
+  width: calc(100%/12*4);
+}
+
+.col-5 {
+  width: calc(100%/12*5);
+}
+
+.col-6 {
+  width: calc(100%/12*6);
+}
+
+.col-7 {
+  width: calc(100%/12*7);
+}
+
+header {
+  background-image: url("http://lukoan.com/tf/tej/assets/images/intro.jpg");
+  background-position: center;
+  background-size: 100%;
+  height: 500px;
+}
+
+header .header__navbar__flex {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  background-color: black;
+  opacity: 95%;
+}
+
+header .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 25px;
+}
+
+header .left__side a {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header .left__side a:hover {
+  color: #ffffff57;
+}
+
+header .right__side ul li {
+  display: inline-block;
+}
+
+header .right__side ul li a {
+  text-decoration: none;
+  font-weight: 100;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: relative;
+  padding: 15px 10px;
+  margin-left: 10px;
+}
+
+header .right__side ul li a:hover {
+  color: #ffffffaf;
+}
+
+#about-me {
+  padding: 50px 0;
+}
+
+#about-me .container > .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 25px;
+}
+
+#about-me .container .image-me {
+  padding: 20px;
+}
+
+#about-me .container .context-me h2 {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-size: 28px;
+}
+
+#about-me .container .context-me h4 {
+  padding: 20px 0;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#about-me .container .context-me p {
+  padding: 20px 0;
+  color: #555555;
+  line-height: 30px;
+}
+
+#about-me .container .context-me .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#about-me .container .context-me .row a {
+  cursor: pointer;
+  border: 1px solid black;
+  margin-right: 10px;
+  overflow: hidden;
+  background: transparent;
+}
+
+#about-me .container .context-me .row a .btn {
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 10px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#about-me .container .context-me .row a .btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#my-offer {
+  padding: 50px 0;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+#my-offer .container h2 {
+  text-align: center;
+  padding: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-size: 30px;
+}
+
+#my-offer .container > .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#my-offer .container > .row div {
+  text-align: center;
+  margin: 15px;
+  padding: 20px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#my-offer .container > .row div i {
+  padding: 15px;
+  font-size: 50px;
+  color: #555555;
+}
+
+#my-offer .container > .row div h4 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #555555;
+  line-height: 2em;
+  font-weight: 100;
+}
+
+#my-offer .container > .row div p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  line-height: 2em;
+  color: #555555;
+  margin: 0 0 10px;
+  font-size: 12px;
+}
+
+#my-offer .container > .row div:hover {
+  border: 1px solid #555555;
+  cursor: pointer;
+}
+
+#my-offer .container > .row div:hover i {
+  color: black;
+}
+
+#latest-blog {
+  padding: 50px 0;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+#latest-blog .container h2 {
+  text-align: center;
+  padding: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-size: 30px;
+}
+
+#latest-blog .container > .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#latest-blog .container > .row .col-4 > div {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  margin: 15px;
+  padding: 20px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+#latest-blog .container > .row .col-4 > div .context {
+  background-color: #555555;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  visibility: hidden;
+  opacity: 0%;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+#latest-blog .container > .row .col-4 > div .context h4 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #555555;
+  line-height: 2em;
+  font-weight: 100;
+}
+
+#latest-blog .container > .row .col-4 > div .context h6 {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  line-height: 2em;
+  color: #555555;
+  margin: 0 0 10px;
+  font-size: 12px;
+}
+
+#latest-blog .container > .row .col-4 > div .context:hover {
+  border: 1px solid #555555;
+  cursor: pointer;
+}
+
+#latest-blog .container > .row .col-4 .card-1 {
+  background-image: url("http://lukoan.com/tf/tej/assets/images/blog/blog1.jpg");
+}
+
+#latest-blog .container > .row .col-4 .card-2 {
+  background-image: url("http://lukoan.com/tf/tej/assets/images/blog/blog2.jpg");
+}
+
+#latest-blog .container > .row .col-4 .card-3 {
+  background-image: url("http://lukoan.com/tf/tej/assets/images/blog/blog3.jpg");
+}
+
+#latest-blog .container > .row .col-4:hover {
+  cursor: pointer;
+}
+
+#latest-blog .container > .row .col-4:hover > div {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#latest-blog .container > .row .col-4:hover > div .context {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  background-color: black;
+  visibility: visible;
+  opacity: 70%;
+}
+
+#latest-blog .container > .row .col-4:hover > div .context h4 {
+  color: white;
+}
+
+#latest-blog .container > .row .col-4:hover > div .context h6 {
+  text-align: left;
+  color: white;
+}
+
+#latest-blog .container > .row .col-4:hover > div .context:hover {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  opacity: 95%;
+}
+/*# sourceMappingURL=style.css.map */
